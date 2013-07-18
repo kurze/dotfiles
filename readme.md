@@ -11,8 +11,8 @@
  * zsh
  * vim
 
- ## required software
+## required software
 
-  * curl
-  * vim
-  * git
+ * curl
+ * vim
+ * git
