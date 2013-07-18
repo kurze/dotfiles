@@ -10,3 +10,9 @@
 
  * zsh
  * vim
+
+ ## required software
+
+  * curl
+  * vim
+  * git
