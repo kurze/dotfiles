@@ -1,4 +1,3 @@
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=99999
 SAVEHIST=999999999999999999
@@ -100,3 +99,10 @@ export MANPAGER="/usr/bin/most -s"
 
 # alias pour pandoc
 alias pandoc_='pandoc --smart --normalize --standalone'
+
+#git
+##color
+git config --global color.ui true
+
+## pretty log
+git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
