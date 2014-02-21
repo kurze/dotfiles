@@ -89,7 +89,7 @@ bindkey '^[\' ncmpcppShow]
 
 
 alias ls='ls --color=auto'
-[ ! "$UID" = "0" ] && archbey2
+[ ! "$UID" = "0" ]
 
 alias synchroClock='sudo ntpdate pool.ntp.org && sudo hwclock --systohc'
 
@@ -97,12 +97,6 @@ export GOPATH=/home/kurze/Code/go/:/home/kurze/Code/chtizz/
 
 export MANPAGER="/usr/bin/most -s"
 
-#tunnel SSH vers kurze.no-ip.info
-alias tunnelsshk='ssh -D 127.0.0.1:8080 kurze@kurze.no-ip.info'
-#tunnel via vps de ovh
-alias tunnelssho='ssh -D 127.0.0.1:8080 kurze@46.105.16.168'
-alias sshk='ssh kurze@kurze.no-ip.info'
-alias ssho='ssh kurze@46.105.16.168'
 
 # alias pour pandoc
 alias pandoc_='pandoc --smart --normalize --standalone'
