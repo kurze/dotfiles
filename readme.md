@@ -9,6 +9,7 @@
 ## managed software
 
  * zsh
+ * tmux
  * vim
 
 ## required software
@@ -16,3 +17,4 @@
  * curl
  * vim
  * git
+ * cmake
