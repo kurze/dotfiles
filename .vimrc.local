@@ -1,3 +1,4 @@
 set gfn=Monospace\ 10
 colorscheme mustang
 set nospell
+set noexpandtab
