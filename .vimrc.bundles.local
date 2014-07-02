@@ -1,0 +1,6 @@
+" Typescript {
+	if count(g:spf13_bundle_groups, 'typescript')
+		Bundle 'leafgarland/typescript-vim'
+	endif
+" }
+

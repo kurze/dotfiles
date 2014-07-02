@@ -7,6 +7,7 @@ echo Vim Configuration
 
 ln  -sb dotfiles/.vimrc.local  .
 ln  -sb dotfiles/.vimrc.before.local  .
+ln  -sb dotfiles/.vimrc.bundles.local  .
 
 curl http://j.mp/spf13-vim3 -L -o - | sh
 
