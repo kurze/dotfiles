@@ -5,10 +5,10 @@ cd $HOME
 
 echo Configuration de Vim
 
-curl http://j.mp/spf13-vim3 -L -o - | sh
-
 ln  -sb dotfiles/.vimrc.local  .
+ln  -sb dotfiles/.vimrc.before.local  .
 
+curl http://j.mp/spf13-vim3 -L -o - | sh
 
 echo Configuration de zsh
 
@@ -28,4 +28,4 @@ make
 sudo make install
 
 cd ..
-rm -r tmux-mem-cpu-load
+rm -fr tmux-mem-cpu-load
