@@ -6,7 +6,7 @@ unsetopt beep
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/kurze/.zshrc'
+zstyle :compinstall filename '~/.zshrc'
 
 autoload -Uz compinit
 compinit
@@ -92,7 +92,7 @@ alias ls='ls --color=auto'
 
 alias synchroClock='sudo ntpdate pool.ntp.org && sudo hwclock --systohc'
 
-export GOPATH=/home/kurze/Code/Go
+export GOPATH=~/Code/go
 
 export MANPAGER="/usr/bin/most -s"
 
