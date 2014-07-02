@@ -106,5 +106,16 @@ git config --global color.ui true
 
 ## pretty log
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+
+#Docker
+
+## Delete all container
+alias dockerDelAllContainers='sudo docker rm $(sudo docker ps -a -q)'
+
+## Delete all images
+alias dockerDelAllImages='sudo docker rmi $(sudo docker images -q)'
+
+alias dockerDelAll='dockerDelAllContainers && dockerDelAllImages'
+
 ## Change GOPATH
 alias GOT='GOPATH=~/Code/gotrust'
