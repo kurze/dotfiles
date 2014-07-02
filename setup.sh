@@ -3,19 +3,19 @@
 cd $HOME
 
 
-echo Configuration de Vim
+echo Vim Configuration
 
 ln  -sb dotfiles/.vimrc.local  .
 ln  -sb dotfiles/.vimrc.before.local  .
 
 curl http://j.mp/spf13-vim3 -L -o - | sh
 
-echo Configuration de zsh
+echo Zsh Configuration
 
 ln -sb dotfiles/.zsh .
 ln -sb dotfiles/.zshrc .
 
-echo Configuration de tmux
+echo Tmux Configuration
 
 ln -sb dotfiles/.tmux.conf .
 cd /tmp/
