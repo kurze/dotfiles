@@ -92,7 +92,7 @@ alias ls='ls --color=auto'
 
 alias synchroClock='sudo ntpdate pool.ntp.org && sudo hwclock --systohc'
 
-export GOPATH=~/Code/go
+export GOPATH=~/gotrust:~/gopath
 
 export MANPAGER="/usr/bin/most -s"
 
