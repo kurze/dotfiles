@@ -119,3 +119,6 @@ alias dockerDelAll='dockerDelAllContainers && dockerDelAllImages'
 
 ## Change GOPATH
 alias GOT='GOPATH=~/Code/gotrust'
+
+
+alias gr='grep --color -r -n'
