@@ -12,7 +12,7 @@ ln  -sb dotfiles/.vimrc.bundles.local  .
 curl http://j.mp/spf13-vim3 -L -o - | sh
 # install all bundles, no choice (2014-07-04); https://github.com/spf13/spf13-vim/pull/503
 
-# correct bundle list
+# correction the bundle list
 vim +BundleInstall +BundleClean +qall
 
 echo Zsh Configuration
